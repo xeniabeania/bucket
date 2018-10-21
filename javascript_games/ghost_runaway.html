@@ -1,0 +1,10 @@
+<html>
+    <img id="ghost" style="position:absolute;" onmouseenter="runAway()" src="ghost.png">
+    <script>
+        function runAway(){
+            document.getElementById("ghost").style.left=Math.random()*900+"px";
+            document.getElementById("ghost").style.top=Math.random()*600+"px";
+        }
+    </script>
+
+</html>
